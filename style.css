@@ -75,7 +75,7 @@ header h1 {
 }
 
 nav a:not(:last-of-type) {
-  margin-right: 1.5vw;
+  margin-right: 1rem;
 }
 
 /* ------- General ------- */
