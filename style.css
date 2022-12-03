@@ -39,6 +39,7 @@ section {
   display: none;
   top: 0;
   width: 100%;
+  min-height: 40rem;
   background: var(--bgcolor);
 }
 
@@ -157,7 +158,6 @@ img {
   grid-gap: 4rem;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 150px = minimum image size */
   grid-auto-flow: dense;
-  padding-bottom: 1.6rem;
 }
 
 .grid a {
