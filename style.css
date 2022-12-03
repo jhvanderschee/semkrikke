@@ -90,6 +90,7 @@ section a:hover, a {
   text-decoration: none;
   color: var(--highlight);
   border: 0;
+  cursor: pointer;
 }
 
 section a, a:hover {
@@ -193,17 +194,8 @@ img {
 
 @media print {
   
-  nav, .lightbox:target:after { display: none; }
-  
   article, figure, img {
     page-break-inside: avoid;
     break-inside: avoid;
   }
-  
-  /* Inline footnotes */
-  
-  label + input + small { display: inline; }
-  label + input + small:before { content: "["; }
-  label + input + small:after { content: "]"; }
-    
 }
