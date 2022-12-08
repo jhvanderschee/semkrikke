@@ -94,7 +94,7 @@ nav a:hover, nav a {
   cursor: pointer;
 }
 
-section a {text-decoration: underline;}
+section a {text-decoration: underline; color: var(--highlight);}
 section a:hover {text-decoration: none;}
 
 nav a:hover, nav a.active {
