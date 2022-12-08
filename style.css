@@ -87,14 +87,17 @@ nav a:not(:last-of-type) {
 
 /* ------- General ------- */
 
-section a:hover, a {
+nav a:hover, nav a {
   text-decoration: none;
   color: var(--highlight);
   border: 0;
   cursor: pointer;
 }
 
-section a, a:hover, a.active {
+section a {text-decoration: underline;}
+section a:hover {text-decoration: none;}
+
+nav a:hover, nav a.active {
   border-bottom: 1px solid;
 }
 
