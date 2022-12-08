@@ -79,7 +79,7 @@ header h1 {
   white-space: nowrap;
   padding: 0 5vw .5em 0;
 }
-header h1 a {border: 0!important;}
+header h1 a {border: 0!important; color: var(--highlight); text-decoration: none;}
 
 nav a:not(:last-of-type) {
   margin-right: 1rem;
