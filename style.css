@@ -93,7 +93,7 @@ section a:hover, a {
   cursor: pointer;
 }
 
-section a, a:hover, a:active {
+section a, a:hover, a.active {
   border-bottom: 1px solid;
 }
 
